@@ -1,0 +1,58 @@
+body {
+  background: black;
+  color: #b2ff59; /* 黄緑 */
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+}
+
+/* ロゴ */
+.logo {
+  width: 250px;
+  margin-top: 30px;
+}
+
+/* 情報 */
+.info {
+  margin-top: 30px;
+}
+
+/* ゲーム一覧 */
+.game-list {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* 各ゲームカード */
+.game-card {
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+
+  border: 2px solid #b2ff59;
+  border-radius: 15px;
+
+  background: #111;
+}
+
+/* ボタン */
+button {
+  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #b2ff59;
+  color: black;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #76ff03;
+}
