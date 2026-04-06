@@ -72,3 +72,18 @@ button {
 button:hover {
   background: #76ff03;
 }
+
+
+/* タイトル横並び */
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* アイコン */
+.game-icon {
+  width: 40px;
+  height: 40px;
+}
