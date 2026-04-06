@@ -46,6 +46,20 @@ body {
   font-size: 26px;
 }
 
+/* タイトル横並び */
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* アイコン */
+.game-icon {
+  width: 40px;
+  height: 40px;
+}
+
 /* 説明文 */
 .game-card p {
   font-size: 18px;
@@ -74,16 +88,4 @@ button:hover {
 }
 
 
-/* タイトル横並び */
-.title-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
 
-/* アイコン */
-.game-icon {
-  width: 40px;
-  height: 40px;
-}
