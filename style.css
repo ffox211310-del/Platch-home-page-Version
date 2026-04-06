@@ -1,6 +1,6 @@
 body {
   background: black;
-  color: #b2ff59; /* 黄緑 */
+  color: #b2ff59;
   font-family: Arial;
   margin: 0;
   text-align: center;
@@ -8,43 +8,59 @@ body {
 
 /* ロゴ */
 .logo {
-  width: 250px;
-  margin-top: 30px;
+  width: 320px; /* ←大きく */
+  margin-top: 40px;
 }
 
 /* 情報 */
-.info {
+.info h2 {
+  font-size: 32px; /* ←デカく */
   margin-top: 30px;
+}
+
+.info p {
+  font-size: 20px;
 }
 
 /* ゲーム一覧 */
 .game-list {
-  margin-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 60px;
+  padding-bottom: 80px;
 }
 
 /* 各ゲームカード */
 .game-card {
-  width: 80%;
-  max-width: 500px;
-  margin: 30px auto;
-  padding: 20px;
+  width: 90%;
+  max-width: 650px; /* ←広げる */
+  margin: 40px auto;
+  padding: 30px;
 
-  border: 2px solid #b2ff59;
-  border-radius: 15px;
+  border: 3px solid #b2ff59;
+  border-radius: 20px;
 
   background: #111;
 }
 
+/* タイトル */
+.game-card h3 {
+  font-size: 26px;
+}
+
+/* 説明文 */
+.game-card p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
 /* ボタン */
 button {
-  margin-top: 15px;
-  padding: 15px;
+  margin-top: 20px;
+  padding: 20px;
   width: 100%;
-  font-size: 16px;
+  font-size: 20px;
 
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
 
   background: #b2ff59;
   color: black;
