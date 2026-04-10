@@ -85,6 +85,7 @@ body {
   border: 2px solid #b2ff59;
   display: none;
   z-index: 1000;
+  width: 200px;
 }
 
 #menu div {
