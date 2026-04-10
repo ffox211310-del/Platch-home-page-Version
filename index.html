@@ -7,6 +7,29 @@
 </head>
 <body>
 
+  <!-- ハンバーガーメニュー -->
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<!-- メニュー -->
+<div id="menu">
+  <div onclick="showPage('about')">About</div>
+  <div onclick="showPage('news')">NEWS</div>
+</div>
+
+<!-- About -->
+<div id="about" class="page">
+  <h2>About</h2>
+  <p>Platchはミニゲームを集めたポータルサイトです</p>
+  <button onclick="goBack()">戻る</button>
+</div>
+
+<!-- NEWS -->
+<div id="news" class="page">
+  <h2>NEWS</h2>
+  <p>開発継続中！ゲーム追加予定！</p>
+  <button onclick="goBack()">戻る</button>
+</div>
+  
   <!-- ロゴ -->
   <img src="Platchlogo.png" class="logo">
 
