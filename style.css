@@ -90,6 +90,7 @@ body {
 
 #menu div {
   padding: 15px 30px;
+   font-size: 70px; 
   cursor: pointer;
 }
 
