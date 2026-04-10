@@ -71,7 +71,7 @@ body {
   position: fixed;
   top: 20px;
   right: 20px;
-  font-size: 40px;
+  font-size: 80px;
   cursor: pointer;
   z-index: 1000;
 }
