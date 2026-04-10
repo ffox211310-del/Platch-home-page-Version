@@ -31,7 +31,7 @@ body {
 /* 各ゲームカード */
 .game-card {
   width: 90%;
-  max-width: 650px; /* ←広げる */
+  max-width: 800px; /* ←広げる */
   margin: 40px auto;
   padding: 30px;
 
@@ -62,7 +62,7 @@ body {
 
 /* 説明文 */
 .game-card p {
-  font-size: 18px;
+  font-size: 30px;
   margin-top: 10px;
 }
 
