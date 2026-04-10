@@ -14,12 +14,12 @@ body {
 
 /* 情報 */
 .info h2 {
-  font-size: 32px; /* ←デカく */
+  font-size: 50px; /* ←デカく */
   margin-top: 30px;
 }
 
 .info p {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /* ゲーム一覧 */
